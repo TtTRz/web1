@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML5手机端3D图片旋转木马</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	
+	<style type="text/css">
+		body{
+		    font-size:1em;
+		    color:#FFFFFF;
+		    background-color:#000000;
+		}
+		#Ellipse{
+		    position:relative;
+		    visibility:visible;
+		    z-index:1;
+		    width:700px;
+		    height:80px;
+		    border:none;
+		    margin-top: 250px;
+		    margin-bottom: 100px;
+		}
+		.RotatingIcon{
+		    border:none;
+		    width:80px;
+		}
+	</style>
+	<!--[if IE]>
+		<script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body onLoad="InitScripts()">
+	
+	<div id="Ellipse">
+	 <img class="RotatingIcon"  src="img/hover0.png">
+	 <img class="RotatingIcon"  src="img/hover1.png">
+	 <img class="RotatingIcon"  src="img/hover2.png">
+	 <img class="RotatingIcon"  src="img/hover3.png">
+	 <img class="RotatingIcon"  src="img/hover4.png">
+	 <img class="RotatingIcon"  src="img/hover5.png">
+	</div>
+	
+	<script src="js/ImageRotator-min.js"></script>
+	<script type="text/javascript">
+		var imageRotater = null;
+		function InitScripts(){
+		 	imageRotater = ImageRotatorJS('Ellipse','RotatingIcon',5,110,3000, 0, 90, 40, null);
+		}
+	</script>
+
+</body>
+</html>
