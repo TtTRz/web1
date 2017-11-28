@@ -303,7 +303,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-clients{
-	background: url(../img/04.jpg);
+	background: url(../img/bk2.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -332,6 +332,7 @@ img.img-circle.team-img {
 /* Gallery Section 
 ==============================*/
 #tf-works{
+	background: url(../img/bk3.jpeg);
 	padding: 80px 0;
 }
 .categories{ 
@@ -476,6 +477,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #tf-contact{
+	background: #868686;
 	padding: 80px 0;
 }
 
@@ -562,7 +564,8 @@ nav#footer p{
 	color: #8c8c8c;
 	transition: all 0.5s;
 }
-#footer i.fa:hover{
+#footer i.fa:hover {
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
