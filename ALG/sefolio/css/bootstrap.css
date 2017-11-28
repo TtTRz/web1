@@ -1351,7 +1351,7 @@ a.text-primary:hover {
   color: #3c763d;
 }
 a.text-success:hover {
-  color: #2b542c;
+  color: #ff0013;
 }
 .text-info {
   color: #31708f;
@@ -1373,10 +1373,10 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #b70006;
 }
 a.bg-primary:hover {
-  background-color: #286090;
+  background-color: #900027;
 }
 .bg-success {
   background-color: #dff0d8;

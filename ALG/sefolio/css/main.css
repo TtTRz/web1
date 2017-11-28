@@ -481,7 +481,7 @@ position:relative;
   opacity: 1 !important;
 }
 .hireme_slider .owl-page.active span,.hireme_slider .owl-page:hover span {
-  background: #2ec06c none repeat scroll 0 0 !important;
+  background: #c0000a none repeat scroll 0 0 !important;
 }
 
 .hireme_slider .owl-buttons{
@@ -522,7 +522,7 @@ padding-bottom:50px;
   width: 80px;
 }
 .service_icon i {
-  color: #2ec06c;
+  color: #c00016;
   font-size: 35px;
 }
 .service_text {
@@ -625,7 +625,7 @@ margin-bottom:25px;
 }
 .prject_area_title h2 span{
 font-family: 'asapbold';
-color:#2ec06c;
+color: #ff0008;
 }
 .prject_area_title p {
   color: #666666;
@@ -646,7 +646,7 @@ color:#2ec06c;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background: #2EC06C none repeat scroll 0 0;
+	background: #ff001f none repeat scroll 0 0;
 	transform: scale(0);
 	transition-duration: 0.3s;
 	transition-property: transform;
@@ -702,7 +702,7 @@ color:#2ec06c;
 }
 .project_overlay .button:hover,
 .button:active {
-  color: #2EC06C;
+  color: #c00018;
   text-decoration:none;
 }
 .project_overlay .button:hover:after {
@@ -756,7 +756,7 @@ text-align:center;
   width: 100%;
 }
 .testmonial i {
-  color: #2EC06C;
+  color: #c00008;
   font-size: 35px;
   margin-bottom: 30px;
 }
@@ -769,7 +769,7 @@ text-align:center;
 }
 .c_name{
 	font-family: 'asapbold';
-	color:#2EC06C;
+	color: #c00000;
 	font-size:18px;
 	margin-top:0;
 	margin-bottom:50px;
@@ -784,7 +784,7 @@ text-align:center;
   opacity: 1 !important;
 }
 .testmonial .owl-page.active span,.testmonial .owl-page:hover span {
-  background: #2ec06c none repeat scroll 0 0 !important;
+  background: #c0001b none repeat scroll 0 0 !important;
 }
 
 /*=====================================================================
@@ -807,7 +807,7 @@ text-align:center;
 }
 .contact_a_title h2 span{
 	font-family: 'asapbold';
-	color:#2EC06C;
+	color: #c00009;
 }
 .contact_a_title p{
 	color:#666666;
@@ -883,7 +883,7 @@ text-align:center;
 	height:45px;
 }
 .contact_box .form-control:focus {
-  border-color: #2EC06C;
+  border-color: #c00019;
   box-shadow: none;
   outline: 0 none;
 }
@@ -891,7 +891,7 @@ text-align:center;
 	position:relative;
 }
 .massage_s {
-  background: #2ec06c none repeat scroll 0 0;
+  background: #c0000d none repeat scroll 0 0;
   border-radius: 0 5px 5px 0;
   color: #fff;
   cursor: pointer;
@@ -926,7 +926,7 @@ color:#fff;
 }
 .footer_area p a{
 	font-family: 'asapbold';
-	color:#2ec06c;
+	color: #c00017;
 }
 .footer_area p a:hover{
 	text-decoration:none;

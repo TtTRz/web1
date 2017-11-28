@@ -3523,7 +3523,7 @@
   transition-property: color;
 }
 .hvr-icon-fade:hover:before, .hvr-icon-fade:focus:before, .hvr-icon-fade:active:before {
-  color: #0F9E5E;
+  color: #9e0019;
 }
 
 /* Icon Float Away */
