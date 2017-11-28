@@ -1,493 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
+<html lang=en>
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel=bookmark href="/favicon.ico" type=image/x-icon>
+	<title>Welcome to ALG</title>
+	<link rel=stylesheet href="xl9/css/style.css">
+	<div class=wrap id=wrap>
+		<div class=wrapper>
+			<div class=header>
+				<div class="head clearfix">
+					<div class=logo_box>
+						<h1 class=hidden>ALG</h1>
+						<a href='javascript:;' class=logo_link style="font-size: 40px;color: white" >ALG</a>
+					</div>
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
-
-<!-- Slider
-================================================== -->
-<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-<link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
-<!-- Stylesheet
-================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
+				</div>
+			</div>
+			<div class=page_wp id=page_wp>
+				<div class="page page_1"><span class="page_bg scale_box"></span>
+					<div class=img_box><img src="" alt=""></div>
+					<div class="txt_box scale_box">
+						<h2>ALG带你飞</h2>
+						<p class="txt_brief" style="text-align: center">现在你可以进入ALG来体验我们的魅力</div>
+				</div>
 
 
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+			</div>
+			<div class="star_wp scale_box" id=star_wp><span class=star_bg></span> <span class=star_box></span></div><canvas id=canvas></canvas>
+			<div class="btns_wp scale_box">
+				<a class="btn_download JS-btn-download" type="button" onclick="location.href='loading0.html'">立即进入</a>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+			</div>
+			<div class=btn_control id=btn_control>
+				<a href=javascript:; class=cur></a>
+
+			</div>
+			<div class=footer>
+				<div class=foot>
+					<p>ALG0.0</div>
+			</div>
+		</div>
+	</div>
+	<script src="xl9/js/vendors.js"></script>
+	<script src="xl9/js/index.js"></script>
+	<!--[if IE 6]>
+<script type="text/javascript" src="http://static.webgame.kanimg.com/com/DD_PNG_min.js"></script>
+<script type="text/javascript">
+	var links=document.getElementsByTagName("a");
+	for(var i=0,l=links.length;i<l;i++){
+		links[i].setAttribute("hideFocus",true);
+	}
+</script>
 <![endif]-->
-</head>
-<body>
-<!-- Navigation
-==========================================-->
-<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	  <a class="navbar-brand" href="index.html">ALG</a>
-	</div>
-
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="#tf-about" class="page-scroll">网站简介</a></li>
-		<li><a href="#tf-IT" class="page-scroll">科技</a></li>
-		  <li><a href="#tf-works" class="page-scroll">天文</a></li>
-		<li><a href="#tf-testimonials" class="page-scroll">杂谈</a></li>
-		<li><a href="#tf-contact" class="page-scroll">注册</a></li>
-	  </ul>
-	</div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!-- Home Page
-==========================================-->
-<div id="tf-home" class="text-center">
-	<div class="overlay">
-		<div class="content">
-			<h1>Welcome<strong><span class="color"> ALG</span></strong></h1>
-			<p class="lead">We Like <strong>DFJ</strong> and  <strong>DSQ</strong></p>
-			<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
-		</div>
-	</div>
-</div>
-
-<!-- About Us Page
-==========================================-->
-<div id="tf-about">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<img src="img/02.png" class="img-responsive">
-			</div>
-			<div class="col-md-6">
-				<div class="about-text">
-					<div class="section-title">
-						<h4>关于我们</h4>
-						<h2>我们是<strong>很正经的</strong>一个<strong>展示</strong>网站</h2>
-						<hr>
-						<div class="clearfix"></div>
-					</div>
-					<p class="intro">本网站是一个基于Bootstrap的网站，运用了Javascript,jQuery等技术</p>
-					<ul class="about-list">
-						<li>
-							<span class="fa fa-dot-circle-o"></span>
-							<strong>主题</strong> - <em>我们是一个多方维的展示网站</em>
-						</li>
-						<li>
-							<span class="fa fa-dot-circle-o"></span>
-							<strong>内容</strong> - <em>科技 天文 杂谈 </em>
-						</li>
-						<li>
-							<span class="fa fa-dot-circle-o"></span>
-							<strong></strong> - <em></em>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Team Page
-==========================================-->
-<div id="tf-team" class="text-center">
-	<div class="overlay">
-		<div class="container">
-			<div class="section-title center">
-				<h2><strong>我们团队</strong></h2>
-				<div class="line">
-					<hr>
-				</div>
-			</div>
-
-			<div id="team" class="owl-carousel owl-theme row">
-				<div class="item ">
-					<div class="thumbnail">
-						<img src="" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>BB</h3>
-							<p>哈哈</p>
-							<p>爱生活 爱撸管</p>
-						</div>
-					</div>
-				</div>
-				<div class="item ">
-					<div class="thumbnail">
-						<img src="i" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>NN</h3>
-							<p>mm</p>
-							<p>嘿嘿</p>
-						</div>
-					</div>
-				</div>
-				<div class="item ">
-					<div class="thumbnail">
-						<img src="i" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>噢</h3>
-							<p>123</p>
-							<p>哄哄</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="item ">
-					<div class="thumbnail">
-						<img src="" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>加入我们</h3>
-							<p>期待你</p>
-							<p>我们等着你</p>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-			
-		</div>
-	</div>
-</div>
-
-<!-- Services Section
-==========================================-->
-<div id="tf-IT" class="text-center">
-	<div class="container">
-		<div class="section-title center">
-			<h2>走进 <strong style="color: red">科学</strong> 世界</h2>
-			<div class="line-red">
-				<hr>
-			</div>
-			<div class="clearfix"></div>
-			<em>科技类栏目</em>
-		</div>
-		<div class="space"></div>
-		<div class="row">
-			<div class="col-md-4 col-sm-6 service">
-				<img src="img/timg (1).jpeg" height="60" width="200"/>
-			</div>
-			<div class="col-md-4 col-sm-6 service">
-				<i class="fa fa-bullhorn"></i>
-				<h2><strong style="color: black;">注意</strong></h2>
-				<hr>
-				<p style="font-size: 25px;color: red"><strong>前方高能</strong> 非技术人员 <strong>切勿靠近!</strong></p>
-			</div>
-			<div class="col-md-4 col-sm-6 service">
-				<img src="img/timg (1).jpeg" height="60" width="200"/>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Clients Section
-==========================================-->
-<div id="tf-clients" class="text-center">
-	<div class="overlay">
-		<div class="container">
-
-			<div class="section-title center">
-				<h2>一些<strong style ="color:red"> 高能 </strong>网站</h2>
-				<div class="line-red">
-					<hr>
-				</div>
-			</div>
-			<div id="clients" class="owl-carousel owl-theme">
-				<div class="item">
-					<a href ="#" style="font-size: 35px;color:orangered">独家硬件资讯</a>
-				</div>
-				<div class="item">
-					<a href="https://www.popsci.com/technology/"><img src="img/ittb.jpg " height="100" width="120"></a>
-
-				</div>
-				<div class="item">
-					<a href="https://slashdot.org/"><img src="img/ittb2.jpg " height="80" width="140"></a>
-				</div>
-				<div class="item">
-					<a href="http://tech.163.com/"><img src="img/ittb3.jpg" height="60" width="140"></a>
-				</div>
-				<div class="item">
-					<a href ="#" style="font-size: 35px;color:orangered">独家软件资讯</a>
-				</div>
-				<div class="item">
-
-			</div>
-
-		</div>
-	</div>
-</div>
-
-
-	<div id="tf-works">
-		<div class="container">
-			<div class="section-title text-center center">
-				<h2>宇宙 <strong style="color: #790280">天文</strong> 星球</h2>
-				<div class="line-purple">
-					<hr>
-				</div>
-				<div class="clearfix"></div>
-				<em style="font-size: 17px">走进天文，探索宇宙</em>
-			</div>
-			<div class="space"></div>
-
-			<div class="categories">
-
-				<ul class="cat">
-					<li class="pull-left"><h4>选择星球:</h4></li>
-					<li class="pull-right">
-						<ol class="type">
-							<li><a href="#" data-filter="*" class="active" style="color: #490182;font-size: 20px">全部</a></li>
-							<li><a href="#" data-filter=".web" style="color:#5f0182;font-size: 20px;">科普</a></li>
-							<li><a href="#" data-filter=".photography" style="color:#781582;font-size: 20px">图片</a></li>
-							<li><a href="#" data-filter=".app" style="color:#82317e;font-size: 20px">网站</a></li>
-						</ol>
-					</li>
-				</ul>
-				<div class="clearfix"></div>
-			</div>
-
-			<div id="lightbox" class="row">
-
-				<div class="col-sm-6 col-md-3 col-lg-3 ">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="http://www.baidu.com">
-								<div class="hover-text">
-									<h4>新闻1</h4>
-									<small>摘要</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/emmm.jpg" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-3 col-lg-3 photography">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>知识模块里的东西</h4>
-									<small>emmm</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/16.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-sm-6 col-md-3 col-lg-3  app">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>Logo Design</h4>
-									<small>Branding</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/14.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-3 col-lg-3  photography">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>Logo Design</h4>
-									<small>Branding</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/15.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-3 col-lg-3 web">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>星空</h4>
-									<small>emmm</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/12.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-3 col-lg-3 app">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>网站模块里的东西</h4>
-									<small>emmm</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/13.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-3 col-lg-3 web">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>天体</h4>
-									<small>emmm</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/11.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-3 col-lg-3 web">
-					<div class="portfolio-item">
-						<div class="hover-bg">
-							<a href="#">
-								<div class="hover-text">
-									<h4>星球</h4>
-									<small>emmm</small>
-									<div class="clearfix"></div>
-									<i class="fa fa-plus"></i>
-								</div>
-								<img src="img/10.png" class="img-responsive" alt="...">
-							</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-<!-- Testimonials Section
-==========================================-->
-<div id="tf-testimonials" class="text-center">
-	<div class="overlay">
-		<div class="container">
-			<div class="section-title center">
-				<h2 style="text-align: center">风景 <strong style="color: greenyellow">杂谈</strong> 大学</h2>
-				<div class="line-green">
-					<hr>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div id="testimonial" class="owl-carousel owl-theme">
-						<div class="item">
-							<h4>世界那么大我想去看看</h4>
-							<p><strong>从脚下出发，来一场说走就走的旅行</strong></p>
-						</div>
-
-						<div class="item">
-							<h54>杂谈</h54>
-							<p><strong>随心所动</strong></p>
-						</div>
-
-						<div class="item">
-							<h4>大学四年 莫虚度</h4>
-							<p><strong>憧憬大学 怀念大学</strong></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<button style="background: none;width:70px;height: 40px;"><a href="zatan/zatan-index.html">旅行</a></button>
-		</div>
-	</div>
-</div>
-
-<!-- Contact Section
-==========================================-->
-<div id="tf-contact" class="text-center">
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-
-				<div class="section-title center">
-					<h2>现在就来 <strong>加入</strong> 我们吧！</h2>
-					<div class="line">
-						<hr>
-					</div>
-					<div class="clearfix"></div>
-					<em>点击注册并填写相关信息即可加入我们，成为我们的一员！</em>
-						<br>
-						<br>
-					<button style="background: none;width:70px;height:40px"><a>注册</a></button>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</div>
-
-<nav id="footer">
-	<div class="container">
-		<div class="pull-left fnav">
-			<p>2017.11.ALG协会</p>
-		</div>
-		<div class="pll-right fnav">
-			<ul class="footer-social">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a>邮箱:thelns@vip.qq.com</a></li>
-				<li><address>地址:北京师范大学珠海分校</address></li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
-
-<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/SmoothScroll.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-</body>
-</html>
