@@ -114,7 +114,7 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/ooYBAFO6RIWIQsN1ACrDyPxJF70AABtmgBnW3EAKsPg092.jpg);
+	background: url(../img/timg.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -177,7 +177,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(../img/bk1.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -441,7 +441,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Testimonials Section */
 #tf-testimonials{
-	background: url(../img/05.jpg);
+	background: url(../img/1511847795862.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
