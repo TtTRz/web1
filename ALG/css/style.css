@@ -44,6 +44,7 @@ a:focus{
 	color: #FCAC45;
 }
 
+
 .section-title hr{
 	border-color: #fcac45;
 	border-width: 4px;
@@ -114,7 +115,7 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/06.jpg);
+	background: url(../img/timg.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -177,7 +178,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/307748.jpg);
+	background: url(../img/bk1.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -211,6 +212,31 @@ ul.about-list li span{
 	margin: 0 auto;
 	margin-top: 20px;
 }
+.section-title.center .line-purple{
+	border-top: 4px solid #9b05fc;
+	height: 10px;
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.section-title.center .line-green{
+	border-top: 4px solid #23fc19;
+	height: 10px;
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.section-title.center .line-red{
+	border-top: 4px solid #fc001a;
+	height: 10px;
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
 
 .section-title.center hr {
 	border-top: 4px solid rgba(252, 172, 69, 0.34);
@@ -303,7 +329,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-clients{
-	background: url(../img/04.jpg);
+	background: url(../img/bk2.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -332,6 +358,7 @@ img.img-circle.team-img {
 /* Gallery Section 
 ==============================*/
 #tf-works{
+	background: url(../img/bk3.jpeg);
 	padding: 80px 0;
 }
 .categories{ 
@@ -441,7 +468,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Testimonials Section */
 #tf-testimonials{
-	background: url(../img/05.jpg);
+	background: url(../img/1511847795862.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -476,6 +503,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #tf-contact{
+	background: #868686;
 	padding: 80px 0;
 }
 
@@ -562,7 +590,8 @@ nav#footer p{
 	color: #8c8c8c;
 	transition: all 0.5s;
 }
-#footer i.fa:hover{
+#footer i.fa:hover {
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}

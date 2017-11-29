@@ -322,7 +322,7 @@ margin-top: 10px;
   font-size: 30px;
 }
 .manu_div button:hover {
-    color: #ff9900;
+    color: #009900;
 }
 .cbp-spmenu {
   background: #171717 none repeat scroll 0 0;
@@ -481,7 +481,7 @@ position:relative;
   opacity: 1 !important;
 }
 .hireme_slider .owl-page.active span,.hireme_slider .owl-page:hover span {
-  background: #FF9900 none repeat scroll 0 0 !important;
+  background: #009900 none repeat scroll 0 0 !important;
 }
 
 .hireme_slider .owl-buttons{
@@ -522,7 +522,7 @@ padding-bottom:50px;
   width: 80px;
 }
 .service_icon i {
-  color: #FF9900;
+  color: #009900;
   font-size: 35px;
 }
 .service_text {
