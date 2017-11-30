@@ -221,7 +221,7 @@ ul.about-list li span{
 	margin-top: 20px;
 }
 .section-title.center .line-green{
-	border-top: 4px solid #23fc19;
+	border-top: 4px solid #269508;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -294,7 +294,7 @@ img.img-circle.team-img {
 	background: #FCAC45;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #FCAC45;
+	background: #009966;
 }
 
 /* Services Section */
