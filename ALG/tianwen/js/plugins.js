@@ -14,11 +14,8 @@
     while (length--) {
         method = methods[length];
 
-        // Only stub undefined methods.
         if (!console[method]) {
             console[method] = noop;
         }
     }
 }());
-
-// Place any jQuery/helper plugins in here.

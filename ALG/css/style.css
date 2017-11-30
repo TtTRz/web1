@@ -292,15 +292,12 @@ img.img-circle.team-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #00fc12;
+	background: #009966;
 }
 .owl-theme .owl-controls .owl-page.active span{
-<<<<<<< HEAD
-	background: #009966;
-=======
 	background: #00fc29;
->>>>>>> da12a61b57fbec0a0557d197ba37befc6d53dad8
 }
+
 
 /* Services Section */
 #tf-services{
@@ -577,10 +574,11 @@ nav#footer{
 	padding: 20px 0 15px 0;
 }
 nav#footer .fnav{ vertical-align: middle;}
-ul.footer-social li{
+ul.footer-social li {
 	display: inline-block;
 	margin-right: 10px;
 }
+
 nav#footer p{
 	font-size: 12px;
 	margin-top: 10px;
