@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>登录表单</title>
+<title>登录/注册</title>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,10 +20,10 @@
 <div class="container w3layouts agileits">
   <div class="login w3layouts agileits">
     <h2>登 录</h2>
-    <form action="#" method="post">
-      <input type="text" Name="Userame" placeholder="用户名" required="">
-      <input type="password" Name="Password" placeholder="密码" required="">
-    </form>
+
+      <input type="text" id="username" name="username" placeholder="用户名" required="">
+      <input type="password" id="password" name="Password" placeholder="密码" required="">
+
     <ul class="tick w3layouts agileits">
       <li>
         <input type="checkbox" id="brand1" value="">
@@ -32,7 +32,7 @@
     </ul>
     <div class="send-button w3layouts agileits">
       <form>
-        <input type="submit" value="登 录">
+        <input id="login" type="submit" value="登 录">
       </form>
     </div>
     <a href="http://www.baidu.com/">忘记密码?</a>
@@ -49,16 +49,13 @@
   </div>
   <div class="register w3layouts agileits">
     <h2>注 册</h2>
-    <form action="#" method="post">
-      <input type="text" Name="Name" placeholder="用户名" required="">
+
+      <input type="text" Name="name" id="user" placeholder="用户名" required="">
       <input type="text" Name="Email" placeholder="邮箱" required="">
-      <input type="password" Name="Password" placeholder="密码" required="">
+      <input type="password" Name="Password" id="password1" placeholder="密码" required="">
       <input type="text" Name="Phone Number" placeholder="手机号码" required="">
-    </form>
     <div class="send-button w3layouts agileits">
-      <form>
-        <input type="submit" value="免费注册">
-      </form>
+        <input id="register" type="submit" value="免费注册">
     </div>
     <div class="clear"></div>
   </div>
@@ -68,6 +65,53 @@
   <p>2017.11.ALG</p>
 </div>
 </body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#login").click(function () {
+            if ($("#username").val().length == 0){
+                return alert("请输入内容!");
+            }
+            if ($("#password").val().length == 0){
+                return alert("请输入密码!");
+            }
+            $.ajax({
+                url:"http://localhost:63342/ALG/login",
+                type:"POST",
+                data:{
+                    username:$("#username").val(),
+                    password:$("#password").val(),
+                },
+                success:function (res) {
+                    alert("登录成功!")
+                },
+                error:function (err) {
+                    console.log(err);
+                }
+            })
 
+        })
+    });
+</script>
+<script>
+    $(function () {
+        $("#register").click(function () {
+            $.ajax({
+                url:"http://localhost:63342/ALG/login",
+                type:"POST",
+                data:{
+                    username:$("#user").val(),
+                    password:$("#password1").val()
+                },
+                success:function (res) {
+                    alert(res);
+                },
+                error:function (err) {
+                    console.log(err);
+                }
+            })
+        })
+    });
+</script>
 
 </html>
