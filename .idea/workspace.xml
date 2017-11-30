@@ -2,164 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77aeea8d-b4d0-4394-b9ef-85330a53300e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/img/bbtouxiang.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/img/ntouxiang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/img/wentingtouxiang.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/images/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/303427.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/bg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/bg4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/bg5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/img/slider/30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/js/poster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/xingqiutupian.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/tianwen/yuzhoutupian.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALG/zatan/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/4044.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/Technology/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/.idea/fullpage20160724.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/jquery.fullPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/movement.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/page-1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/page-2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/page-3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/page-4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/page-5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/css/page-6.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/base.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/bg7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/dot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-2/book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-2/glass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-2/hat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-2/tel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/1(4).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/2(3).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/4(2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/5(2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/apple6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/baterry10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/tel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-3/tv8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/anjie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/cloud_one.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/cloud_three.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/cloud_two.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/dayang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/lingyang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/school.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page-4/无标题.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page_home/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page_home/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page_home/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/page_home/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/pure.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/images/unuse.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/img/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/jquery插件库.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/js/handler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/js/resumeEnter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/jquery.fullPage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/jquery.isotope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/lib/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/fullpage20160724/www.jq22.com.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/tianwen/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/tianwen/img/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/tianwen/img/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/tianwen/img/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/tianwen/img/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/tianwen/img/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/zatan/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ALG/科普界面/css/style.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ALG/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/IT1.html" afterPath="$PROJECT_DIR$/ALG/IT1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/css/style.css" afterPath="$PROJECT_DIR$/ALG/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/index.html" afterPath="$PROJECT_DIR$/ALG/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/index1.html" afterPath="$PROJECT_DIR$/ALG/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/loading0.html" afterPath="$PROJECT_DIR$/ALG/loading0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/login.html" afterPath="$PROJECT_DIR$/ALG/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/news1.html" afterPath="$PROJECT_DIR$/ALG/tianwen/news1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/news2.html" afterPath="$PROJECT_DIR$/ALG/tianwen/news2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/news3.html" afterPath="$PROJECT_DIR$/ALG/tianwen/news3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/news4.html" afterPath="$PROJECT_DIR$/ALG/tianwen/news4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/tianwenxiaoketang.html" afterPath="$PROJECT_DIR$/ALG/tianwen/tianwenxiaoketang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/xingqiunews2.html" afterPath="$PROJECT_DIR$/ALG/tianwen/xingqiunews2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/xingqiunews3.html" afterPath="$PROJECT_DIR$/ALG/tianwen/xingqiunews3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/xingqiunews4.html" afterPath="$PROJECT_DIR$/ALG/tianwen/xingqiunews4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/xingqiuxiaoketang.html" afterPath="$PROJECT_DIR$/ALG/tianwen/xingqiuxiaoketang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/yuzhounews1.html" afterPath="$PROJECT_DIR$/ALG/tianwen/yuzhounews1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/yuzhounews2.html" afterPath="$PROJECT_DIR$/ALG/tianwen/yuzhounews2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/yuzhounews3.html" afterPath="$PROJECT_DIR$/ALG/tianwen/yuzhounews3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/yuzhounews4.html" afterPath="$PROJECT_DIR$/ALG/tianwen/yuzhounews4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/tianwen/yuzhouxiaoketang.html" afterPath="$PROJECT_DIR$/ALG/tianwen/yuzhouxiaoketang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ALG/zatan/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/css/preload.css" afterPath="$PROJECT_DIR$/ALG/zatan/css/preload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/Chengdu.html" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/Chengdu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/Kyoto.html" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/Kyoto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/Oslo.html" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/Oslo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ALG/zatan/zatan-index.html" afterPath="$PROJECT_DIR$/ALG/zatan/zatan-index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/xl9/img/下载.gif" afterPath="$PROJECT_DIR$/ALG/xl9/img/xiazai.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/凉亭.png" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/liangting.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/火锅.png" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/huoguo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/返回.png" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/fanhui.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/City/雪.png" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/City/xue.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/zatan/lvxing/旅行.png" afterPath="$PROJECT_DIR$/ALG/zatan/lvxing/travel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ALG/zatan/杂谈.png" afterPath="$PROJECT_DIR$/ALG/zatan/zatan1.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -176,28 +20,18 @@
       <file leaf-file-name="zatan-index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ALG/zatan/zatan-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lvxing.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lvxing.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preload.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ALG/zatan/css/preload.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="760">
+              <caret line="56" column="81" lean-forward="false" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -227,8 +61,8 @@
         <option value="$PROJECT_DIR$/ALG/index1.html" />
         <option value="$PROJECT_DIR$/ALG/css/style.css" />
         <option value="$PROJECT_DIR$/ALG/zatan/zatan-index.html" />
-        <option value="$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html" />
         <option value="$PROJECT_DIR$/ALG/zatan/css/preload.css" />
+        <option value="$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html" />
       </list>
     </option>
   </component>
@@ -239,8 +73,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="231" />
-    <option name="y" value="-32" />
+    <option name="x" value="331" />
+    <option name="y" value="-20" />
     <option name="width" value="1281" />
     <option name="height" value="677" />
   </component>
@@ -278,13 +112,6 @@
               <item name="WEB" type="462c0819:PsiDirectoryNode" />
               <item name="ALG" type="462c0819:PsiDirectoryNode" />
               <item name="zatan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="ALG" type="462c0819:PsiDirectoryNode" />
-              <item name="zatan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,14 +153,17 @@
       <workItem from="1512022192109" duration="3537000" />
       <workItem from="1512025927533" duration="21000" />
       <workItem from="1512035018636" duration="369000" />
+      <workItem from="1512044663367" duration="97000" />
+      <workItem from="1512047159460" duration="558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11229000" />
+    <option name="totallyTimeSpent" value="11884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -364,6 +194,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/zatan-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/zatan-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/css/preload.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ALG/zatan/zatan-index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -471,26 +340,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ALG/zatan/zatan-index.html">
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/css/preload.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
+          <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALG/zatan/zatan-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ALG/zatan/lvxing/lvxing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ALG/zatan/css/preload.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="760">
+          <caret line="56" column="81" lean-forward="false" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
           <folding />
         </state>
       </provider>
