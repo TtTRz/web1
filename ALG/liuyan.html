@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>无标题文档</title>
+    <script>
+        window.onload = function(){
+            var oMsg = document.getElementById("msg");
+            var oBtn = document.getElementById("btn");
+            var oMsg_c = document.getElementById("msg_c");
+            var oUl = document.createElement("ul");
+            oMsg_c.appendChild(oUl);
+            oBtn.onclick = function(){
+                var sVal = oMsg.value;
+                var oli = document.createElement("li");
+                oli.innerHTML = sVal + " <span>删除</span>";
+                var oli1 = oUl.getElementsByTagName("li")
+                if(oli1.length>0){
+                    oUl.insertBefore(oli,oli1[0])
+                }else{
+                    oUl.appendChild(oli);
+                }
+                oMsg.value='';
+
+                var oSpan = document.getElementsByTagName("span");
+                for(var i=0; i<oSpan.length; i++){
+                    oSpan[i].onclick = function(){
+                        oUl.removeChild(this.parentNode);
+                    }
+                }
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+<h1>简易留言板</h1>
+
+<input id="msg" type="text" size="40" value=""> <input id="btn" type="button" value="留言">
+
+<div id="msg_c"></div>
+</body>
+</html>
