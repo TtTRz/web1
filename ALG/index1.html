@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+<meta http-equiv="x-ua-compatible" content="IE=9" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Home</title>
 <meta name="description" content="">
@@ -24,7 +24,35 @@
 
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
 	<script src="js/jquery.1.11.1.js"></script>
+	<script>
+        window.onload = function(){
+            var oMsg = document.getElementById("msg");
+            var oBtn = document.getElementById("btn");
+            var oMsg_c = document.getElementById("msg_c");
+            var oUl = document.createElement("ul");
+            oMsg_c.appendChild(oUl);
+            oBtn.onclick = function(){
+                var sVal = oMsg.value;
+                var oli = document.createElement("li");
+                oli.innerHTML = sVal + " <span>删除</span>";
+                var oli1 = oUl.getElementsByTagName("li")
+                if(oli1.length>0){
+                    oUl.insertBefore(oli,oli1[0])
+                }else{
+                    oUl.appendChild(oli);
+                }
+                oMsg.value='';
 
+                var oSpan = document.getElementsByTagName("span");
+                for(var i=0; i<oSpan.length; i++){
+                    oSpan[i].onclick = function(){
+                        oUl.removeChild(this.parentNode);
+                    }
+                }
+
+            }
+        }
+	</script>
 
 
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -41,7 +69,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	  </button>
-	  <a class="navbar-brand" href="index1.html">ALG</a>
+	  <a class="navbar-brand" href="index1.html" style="color: orange;font-size: 30px">ALG</a>
 	</div>
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
@@ -49,7 +77,8 @@
 		<li><a href="#tf-IT" class="page-scroll">科技</a></li>
 		  <li><a href="#tf-works" class="page-scroll">天文</a></li>
 		<li><a href="#tf-testimonials" class="page-scroll">杂谈</a></li>
-		<li><a href="#tf-contact" class="page-scroll">注册</a></li>
+		<li><a href="login.html" class="page-scroll">登陆</a></li>
+		  <li><a href="#tf-contact" class="page-scroll">注册</a></li>
 	  </ul>
 	</div>
   </div>
@@ -57,8 +86,8 @@
 <div id="tf-home" class="text-center">
 	<div class="overlay">
 		<div class="content">
-			<h1>Welcome<strong><span class="color"> ALG</span></strong></h1>
-			<p class="lead">We Like <strong>DFJ</strong> and  <strong>DSQ</strong></p>
+			<h1 style="color: orange;font-size: 45px">Welcome ALG</h1>
+			<p class="lead"><strong>专业</strong>  <strong>劲爆</strong></p>
 			<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
 		</div>
 	</div>
@@ -67,13 +96,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<img src="img/02.png" class="img-responsive">
+				<img src="img/alg.png" class="img-responsive">
 			</div>
 			<div class="col-md-6">
 				<div class="about-text">
 					<div class="section-title">
 						<h4>关于我们</h4>
-						<h2>我们是<strong>很正经的</strong>一个<strong>展示</strong>网站</h2>
+						<h2>我们是<strong>很正经的</strong>一个<strong>多元素</strong>网站</h2>
 						<hr>
 						<div class="clearfix"></div>
 					</div>
@@ -81,7 +110,7 @@
 					<ul class="about-list">
 						<li>
 							<span class="fa fa-dot-circle-o"></span>
-							<strong>主题</strong> - <em>我们是一个多方维的展示网站</em>
+							<strong>主题</strong> - <em>我们是一个多方维的功能展示网站</em>
 						</li>
 						<li>
 							<span class="fa fa-dot-circle-o"></span>
@@ -89,7 +118,7 @@
 						</li>
 						<li>
 							<span class="fa fa-dot-circle-o"></span>
-							<strong></strong> - <em></em>
+							<strong></strong> - <em>还有更多 等你发现</em>
 						</li>
 					</ul>
 				</div>
@@ -114,7 +143,7 @@
 						<img src="img/bbtouxiang.jpeg" alt="..." class="img-circle team-img">
 						<div class="caption">
 							<h3>BB小天使</h3>
-							<p>爱生活 爱撸管<br>我是ALG的BB</p>
+							<p>爱生活 爱自己<br>我是ALG的BB</p>
 						</div>
 					</div>
 				</div>
@@ -124,7 +153,7 @@
 						<div class="caption">
 							<h3>.n.</h3>
 							<p>当然是选择原谅他啦</p>
-							<p>我是ALG的</p>
+							<p>我是ALG的TR</p>
 						</div>
 					</div>
 				</div>
@@ -140,7 +169,11 @@
 
 				<div class="item ">
 					<div class="thumbnail">
+<<<<<<< HEAD
 						<img src="tianwen/jiaruwomentupian.png" alt="..." class="img-circle team-img">
+=======
+						<img src="img/us.png" alt="..." class="img-circle team-img">
+>>>>>>> fbfd5f1a850d035c95e337e872f41c26bf3ada25
 						<div class="caption">
 							<h3>加入我们</h3>
 							<p>期待你</p>
@@ -434,6 +467,23 @@
 	</div>
 </div>
 
+<div id="tf-contact1" class="text-center">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+				<div class="section-title center">
+					<input id="msg" type="text" size="40" value=""> <input id="btn" type="button" value="留言">
+
+					<div id="msg_c"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
 <nav id="footer">
 	<div class="container">
 		<div class="pull-left fnav">
@@ -441,8 +491,8 @@
 		</div>
 		<div class="pll-right fnav">
 			<ul class="footer-social">
-				<li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+				<li></li>
+				<li></li>
 				<li><a>邮箱:thelns@vip.qq.com</a></li>
 				<li><address>地址:北京师范大学珠海分校</address></li>
 			</ul>
