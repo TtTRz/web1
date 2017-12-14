@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="IE=9" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALG Home</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="css/music.css">
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+<link rel="shortcut icon" href="img/a.png" type="image/x-icon">
+	<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.1.11.1.js"></script>
+	<script>
+        window.onload = function(){
+            var oMsg = document.getElementById("msg");
+            var oBtn = document.getElementById("btn");
+            var oMsg_c = document.getElementById("msg_c");
+            var oUl = document.createElement("ul");
+            oMsg_c.appendChild(oUl);
+            oBtn.onclick = function(){
+                var sVal = oMsg.value;
+                var oli = document.createElement("li");
+                oli.innerHTML = sVal + " <span>删除</span>";
+                var oli1 = oUl.getElementsByTagName("li")
+                if(oli1.length>0){
+                    oUl.insertBefore(oli,oli1[0])
+                }else{
+                    oUl.appendChild(oli);
+                }
+                oMsg.value='';
+
+                var oSpan = document.getElementsByTagName("span");
+                for(var i=0; i<oSpan.length; i++){
+                    oSpan[i].onclick = function(){
+                        oUl.removeChild(this.parentNode);
+                    }
+                }
+
+            }
+        }
+	</script>
+
+
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+</head>
+<body>
+<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="index1.html" style="color: orange;font-size: 40px">ALG</a>
+	</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="#tf-about" class="page-scroll">网站简介</a></li>
+		<li><a href="#tf-IT" class="page-scroll">科技</a></li>
+		  <li><a href="#tf-works" class="page-scroll">天文</a></li>
+		<li><a href="#tf-testimonials" class="page-scroll">杂谈</a></li>
+		<li><a href="login.html" class="page-scroll">登陆</a></li>
+		  <li><a href="#tf-contact" class="page-scroll">注册</a></li>
+	  </ul>
+	</div>
+  </div>
+</nav>
+<div id="tf-home" class="text-center">
+	<div class="overlay">
+		<div class="content">
+			<h1 style="color: orange;font-size: 45px">Welcome ALG</h1>
+			<p class="lead"><strong>专业</strong>  <strong>劲爆</strong></p>
+			<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+		</div>
+	</div>
+</div>
+<div id="tf-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/alg.png" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+				<div class="about-text">
+					<div class="section-title">
+						<h4>关于我们</h4>
+						<h2>我们是<strong>很正经的</strong>一个<strong>多元素</strong>网站</h2>
+						<hr>
+						<div class="clearfix"></div>
+					</div>
+					<p class="intro">本网站是一个基于Bootstrap的网站，运用了Javascript,jQuery等技术</p>
+					<ul class="about-list">
+						<li>
+							<span class="fa fa-dot-circle-o"></span>
+							<strong>主题</strong> - <em>我们是一个多方维的功能展示网站</em>
+						</li>
+						<li>
+							<span class="fa fa-dot-circle-o"></span>
+							<strong>内容</strong> - <em>科技 天文 杂谈 </em>
+						</li>
+						<li>
+							<span class="fa fa-dot-circle-o"></span>
+							<strong></strong> - <em>还有更多 等你发现</em>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="tf-team" class="text-center">
+	<div class="overlay">
+		<div class="container">
+			<div class="section-title center">
+				<h2><strong style="color: orange">ALG团队</strong></h2>
+				<div class="line">
+					<hr>
+				</div>
+			</div>
+
+			<div id="team" class="owl-carousel owl-theme row">
+				<div class="item ">
+					<div class="thumbnail">
+						<img src="img/bbtouxiang.jpeg" alt="..." class="img-circle team-img">
+						<div class="caption">
+							<h3>BB小天使</h3>
+							<p>爱生活 爱自己<br>我是ALG的BB</p>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div class="thumbnail">
+						<img src="img/ntouxiang.jpg" alt="..." class="img-circle team-img">
+						<div class="caption">
+							<h3>.n.</h3>
+							<p>当然是选择原谅他啦</p>
+							<p>我是ALG的TR</p>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div class="thumbnail">
+						<img src="img/wentingtouxiang.jpeg" alt="..." class="img-circle team-img">
+						<div class="caption">
+							<h3>Feiting</h3>
+							<p>一个萌新</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="item ">
+					<div class="thumbnail">
+						<img src="img/us.png" alt="..." class="img-circle team-img">
+						<div class="caption">
+							<h3>加入我们</h3>
+							<p>期待你</p>
+							<p>我们等着你</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div id="tf-IT" class="text-center" style="background-image: url(Technology/img/hire_bg.jpg)">
+	<div class="container">
+		<div class="section-title center">
+			<h2><strong>走进<span style="color: #ff2e00"> 科学 </span>世界</strong></h2>
+			<div class="line-red">
+				<hr>
+			</div>
+			<div class="clearfix"></div>
+			<em>科技类栏目</em>
+		</div>
+		<div class="space"></div>
+		<div class="row">
+			<div class="col-md-4 col-sm-6 service">
+				<img src="img/timg (1).jpeg" height="60" width="200"/>
+			</div>
+			<div class="col-md-4 col-sm-6 service">
+				<i class="fa fa-bullhorn"></i>
+				<h2><strong style="color: black;">注意</strong></h2>
+				<hr>
+				<p style="font-size: 25px;color: red">前方<strong>高能</strong> 非技术人员 <strong>切勿</strong>靠近</p>
+			</div>
+			<div class="col-md-4 col-sm-6 service">
+				<img src="img/timg (1).jpeg" height="60" width="200"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="tf-clients" class="text-center">
+	<div class="overlay">
+		<div class="container">
+
+			<div class="section-title center">
+				<h2>一些<strong style ="color:red"> 高能 </strong>网站</h2>
+				<div class="line-red">
+					<hr>
+				</div>
+			</div>
+			<div id="clients" class="owl-carousel owl-theme">
+				<div class="item">
+					<a href ="IT1.html" style="font-size: 35px;color:orangered">独家软件资讯</a>
+				</div>
+				<div class="item">
+					<a href="http://www.popsci.com/technology/"><img src="img/ittb.jpg " height="100" width="120"></a>
+
+				</div>
+				<div class="item">
+					<a href="http://slashdot.org/"><img src="img/ittb2.jpg " height="80" width="140"></a>
+				</div>
+				<div class="item">
+					<a href="http://tech.163.com/"><img src="img/ittb3.jpg" height="60" width="140"></a>
+				</div>
+				<div class="item">
+					<a href="http://www.kejixun.com/"><img src="Technology/img/kejizixun.jpg" height="60" width="140"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="tf-works">
+	<div class="container">
+		<div class="section-title text-center center">
+			<h2><strong style="color: #790280">宇宙</strong><strong style="color: #6c00c3"> 天文 </strong><strong style="color: #a900ff">星球</strong></h2>
+			<div class="line-purple">
+				<hr>
+			</div>
+			<div class="clearfix"></div>
+			<em style="font-size: 17px;color: #5e00c3">走进天文，探索宇宙</em>
+		</div>
+		<div class="space"></div>
+
+		<div class="categories">
+
+			<ul class="cat">
+				<li class="pull-left"><h3 style="font-weight: bold;font-size: large;color: #ff27e8">选择模块:</h3></li>
+				<li class="pull-right">
+					<ol class="type">
+						<li><a href="#" data-filter="*" class="active" style="color: #490182;font-size: 20px">全部</a></li>
+						<li><a href="#" data-filter=".web" style="color:#5f0182;font-size: 20px;">科普</a></li>
+						<li><a href="#" data-filter=".photography" style="color:#781582;font-size: 20px">图片</a></li>
+						<li><a href="#" data-filter=".app" style="color:#82317e;font-size: 20px">网站</a></li>
+					</ol>
+				</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+
+		<div id="lightbox" class="row">
+
+			<div class="col-sm-6 col-md-3 col-lg-3 ">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="http://skylook.org/">
+							<div class="hover-text">
+								<h4>星友空间站</h4>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/emmm.jpg" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3 col-lg-3 photography">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="xingqiutupian.html">
+							<div class="hover-text">
+								<h4>星球图片</h4>
+								<small>天体图片</small>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/16.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6 col-md-3 col-lg-3  app">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="http://www.astronomy.com.cn/bbs/forum.php">
+							<div class="hover-text">
+								<h4>牧夫天文论坛</h4>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/14.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3 col-lg-3  photography">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="yuzhoutupian.html">
+							<div class="hover-text">
+								<h4>宇宙图片</h4>
+								<small>星系图片</small>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/15.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3 col-lg-3 web">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="yuzhouxiaoketang.html">
+							<div class="hover-text">
+								<h4>宇宙</h4>
+								<small>小课堂</small>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/12.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3 col-lg-3 app">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="http://www.astron.ac.cn/">
+							<div class="hover-text">
+								<h4>中国天文科普网</h4>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/13.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3 col-lg-3 web">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="tianwenxiaoketang.html">
+							<div class="hover-text">
+								<h4>天体</h4>
+								<small>小课堂</small>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/11.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3 col-lg-3 web">
+				<div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="xingqiuxiaoketang.html">
+							<div class="hover-text">
+								<h4>星球</h4>
+								<small>小课堂</small>
+								<div class="clearfix"></div>
+								<i class="fa fa-plus"></i>
+							</div>
+							<img src="img/10.png" class="img-responsive" alt="...">
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div id="tf-testimonials" class="text-center">
+	<div class="overlay">
+		<div class="container">
+			<div class="section-title center">
+				<h2 style="text-align: center">风景 <strong style="color: greenyellow">杂谈</strong> 大学</h2>
+				<div class="line-green">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div id="testimonial" class="owl-carousel owl-theme">
+						<div class="item">
+							<h4>世界那么大我想去看看</h4>
+							<p><strong>从脚下出发，来一场说走就走的旅行</strong></p>
+						</div>
+
+						<div class="item">
+							<h4>杂谈</h4>
+							<p><strong>随心所动</strong></p>
+						</div>
+
+						<div class="item">
+							<h4>大学四年 莫虚度</h4>
+							<p><strong>憧憬大学 怀念大学</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="zatan-index.html">
+				<button style="background: none;width:70px;height: 40px;color: #00fc0d">杂谈</button>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div id="tf-contact" class="text-center">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+				<div class="section-title center">
+					<h2>现在就来 <strong style="color: orange">加入</strong> 我们吧！</h2>
+					<div class="line">
+						<hr>
+					</div>
+					<div class="clearfix"></div>
+					<em>点击注册并填写相关信息即可加入我们，成为我们的一员！</em>
+						<br>
+						<br>
+					<button style="background: none;width:70px;height:40px"><a href="login.html">注册</a></button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div id="tf-contact1" class="text-center">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+				<div class="section-title center">
+					<input id="msg" type="text" size="40" value=""> <input id="btn" type="button" value="留言">
+
+					<div id="msg_c"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<nav id="footer">
+	<div class="container">
+		<div class="pull-left fnav">
+			<p>2017.11.ALG协会</p>
+		</div>
+		<div class="pll-right fnav">
+			<ul class="footer-social">
+				<li></li>
+				<li></li>
+				<li><a>邮箱:thelns@vip.qq.com</a></li>
+				<li><address>地址:北京师范大学珠海分校</address></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!--<audio></audio>-->
+<!--<div class="m_player">-->
+	<!--&lt;!&ndash; 主体 &ndash;&gt;-->
+	<!--<div class="m_player_dock">-->
+		<!--&lt;!&ndash; 歌曲信息 &ndash;&gt;-->
+		<!--<div class="music_icon">-->
+			<!--<a href="javascript:;"class="album_pic">-->
+				<!--<img src="image/a1.png" alt="">-->
+			<!--</a>-->
+			<!--<div class="music_info_main">-->
+				<!--<p class="music_name">-->
+					<!--<span>听我想听的歌</span>-->
+					<!--<a class="icon_radio"></a>-->
+				<!--</p>-->
+				<!--<p class="singer_name">网易</p>-->
+				<!--<p class="play_date">2:16</p>-->
+				<!--<p class="music_op">-->
+					<!--<strong class="btn_like"></strong>-->
+					<!--<strong class="btn_share"></strong>-->
+				<!--</p>-->
+			<!--</div>-->
+		<!--</div>-->
+		<!--&lt;!&ndash; 暂停 上一首 下一首 &ndash;&gt;-->
+		<!--<div class="bar_op">-->
+			<!--<strong class="prev_bt" title="上一首"></strong>-->
+			<!--<strong class="play_bt" title="播放"></strong>-->
+			<!--<strong class="next_bt" title="下一首"></strong>-->
+			<!--<strong class="cycle_bt" id="btnplayway" title="列表循环"></strong>-->
+			<!--<p class="volume" title="音量调节">-->
+				<!--<span class="volume_icon" title="设置为静音"></span>-->
+				<!--<span class="volume_regulate">-->
+          <!--<span class="volume_bar"></span>-->
+          <!--<span class="volume_op"></span>-->
+        <!--</span>-->
+			<!--</p>-->
+		<!--</div>-->
+		<!--<p class="playbar_cp_select">-->
+			<!--<strong class="ordered_bt" title="顺序播放"></strong>-->
+			<!--<strong class="unordered_bt" title="随机播放"></strong>-->
+			<!--<strong class="cycle_single_bt" title="单曲循环"></strong>-->
+			<!--<strong class="cycle_bt" title="列表循环"></strong>-->
+		<!--</p>-->
+		<!--<p class="play_bar">-->
+			<!--<span class="play_bg_bar"></span>-->
+			<!--<span class="download_bar"></span>-->
+			<!--<span class="play_current_bar"></span>-->
+			<!--<span class="progress_op"></span>-->
+		<!--</p>-->
+		<!--<div class="time_show">-->
+			<!--<p id="time_show">&#45;&#45;:&#45;&#45;</p>-->
+			<!--<span class="icon_arrow_foot">-->
+        <!--<i class="foot_border"></i>-->
+        <!--<i class="foot_arrow"></i>-->
+      <!--</span>-->
+		<!--</div>-->
+	<!--</div>-->
+	<!--&lt;!&ndash; 隐藏显示按钮 &ndash;&gt;-->
+	<!--<button type="button" class="folded_bt"></button>-->
+	<!--&lt;!&ndash; 歌曲列表 &ndash;&gt;-->
+	<!--<div class="play_list_frame">-->
+		<!--<div class="play_list_title">-->
+			<!--<ul>-->
+				<!--<li class="current"><a href="javascript:;">播放列表</a></li>-->
+				<!--<li><a href="javascript:;">单曲电台列表</a></li>-->
+			<!--</ul>-->
+			<!--<span class="clear_list">清空列表</span>-->
+			<!--<strong class="close_list"></strong>-->
+		<!--</div>-->
+		<!--<div class="play_list">-->
+			<!--<div class="play_list_main">-->
+				<!--<div class="single_list">-->
+					<!--<ul></ul>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+
+	<!--</div>-->
+	<!--&lt;!&ndash; 歌词 &ndash;&gt;-->
+	<!--<div class="y_player_lyrics">-->
+		<!--<div class="lyrics_text">-->
+			<!--<p><span class></span></p>-->
+			<!--<p><span class="current">一个人 - 张艺兴</span></p>-->
+			<!--<p><span>词：张艺兴</span></p>-->
+			<!--<p><span class>曲：张艺兴</span></p>-->
+		<!--</div>-->
+		<!--<span class="close_lyrics"></span>-->
+	<!--</div>-->
+	<!--&lt;!&ndash; 打开隐藏歌曲列表&ndash;&gt;-->
+	<!--<span class="open_list">-->
+    <!--<span>0</span>-->
+  <!--</span>-->
+	<!--&lt;!&ndash; 显示歌词 &ndash;&gt;-->
+	<!--<span class="btn_lyrics_disabled">-->
+  <!--</span>-->
+<!--</div>-->
+<!--<script src="js/music.js"></script>-->
+
+
+	<script src="ehttp://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
