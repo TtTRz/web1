@@ -11,10 +11,9 @@
 <link rel="stylesheet" href="css/music.css">
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
-<link rel="shortcut icon" href="img/a.png" type="image/x-icon">
-	<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link rel="shortcut icon" href="img/a.png" type="image/x-icon"><link href="css/owl.carousel.css" rel="stylesheet" media="screen">
 <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
+<link rel="stylesheet" type="text/css" href="css/mplayer.css">
 
 <link rel="stylesheet" type="text/css"  href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -51,7 +50,15 @@
             }
         }
 	</script>
-
+	<style>
+		.info {
+			font-family: "Microsoft Yahei";
+			text-align: center;
+		}
+		.info h1 {
+			font-weight: 400;
+		}
+	</style>
 
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -443,10 +450,8 @@
 
 <div id="tf-contact" class="text-center">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-
 				<div class="section-title center">
 					<h2>现在就来 <strong style="color: orange">加入</strong> 我们吧！</h2>
 					<div class="line">
@@ -459,17 +464,8 @@
 					<button style="background: none;width:70px;height:40px"><a href="login.html">注册</a></button>
 				</div>
 			</div>
-		</div>
-
-	</div>
-</div>
-
-<div id="tf-contact1" class="text-center">
-	<div class="container">
-
-		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-
+				<h2><strong style="color: orange">留言板</strong></h2>
 				<div class="section-title center">
 					<input id="msg" type="text" size="40" value=""> <input id="btn" type="button" value="留言">
 
@@ -480,22 +476,167 @@
 
 	</div>
 </div>
+<!--<div id="tf-contact1" class="text-center">-->
+	<!--<div class="container">-->
+		<!--<div class="row">-->
+			<!--<div class="col-md-8 col-md-offset-2">-->
+				<!--<h2><strong style="color: orange">留言板</strong></h2>-->
+				<!--<div class="section-title center">-->
+					<!--<input id="msg" type="text" size="40" value=""> <input id="btn" type="button" value="留言">-->
+
+					<!--<div id="msg_c"></div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+
+	<!--</div>-->
+<!--</div>-->
+
+<!--留言板2-->
+<!--<div id="msgBox">-->
+	<!--<form>-->
+		<!--<h2>来 , 说说你在做什么 , 想什么</h2>-->
+
+		<!--<div>-->
+			<!--<input id="userName" class="f-text" value="" />-->
+			<!--<p id="face"><img src="img/face1.gif" class="current" /><img src="img/face2.gif" /><img src="img/face3.gif" /><img src="img/face4.gif" /><img src="img/face5.gif" /><img src="img/face6.gif" /><img src="img/face7.gif" /><img src="img/face8.gif" /></p>-->
+		<!--</div>-->
+		<!--<div><textarea id="conBox" class="f-text"></textarea></div>-->
+		<!--<div class="tr">-->
+			<!--<p>-->
+				<!--<span class="countTxt">还能输入</span><strong class="maxNum">140</strong><span>个字</span>-->
+
+				<!--<input id="sendBtn" type="button" value="" title="快捷键 Ctrl+Enter" />-->
+			<!--</p>-->
+		<!--</div>-->
+	<!--</form>-->
+	<!--<div class="list">-->
+		<!--<h3><span>大家在说</span></h3>-->
+		<!--<ul>-->
+			<!--<li>-->
+
+				<!--<div class="userPic"><img src="img/face.gif" /></div>-->
+				<!--<div class="content">-->
+					<!--<div class="userName"><a href="javascript:;">永不上线</a>:</div>-->
+					<!--<div class="msgInfo">新增删除广播功能。</div>-->
+					<!--<div class="times"><span>07月05日 15:14</span><a class="del" href="javascript:;">删除</a></div>-->
+				<!--</div>-->
+
+			<!--</li>-->
+			<!--<li>-->
+				<!--<div class="userPic"><img src="img/face1.gif" /></div>-->
+				<!--<div class="content">-->
+					<!--<div class="userName"><a href="javascript:;">永不上线</a>:</div>-->
+					<!--<div class="msgInfo">新增Ctrl+Enter快捷键发送广播。</div>-->
+					<!--<div class="times"><span>07月05日 12:20</span><a class="del" href="javascript:;">删除</a></div>-->
+
+				<!--</div>-->
+			<!--</li>-->
+			<!--<li>-->
+				<!--<div class="userPic"><img src="img/face2.gif" /></div>-->
+				<!--<div class="content">-->
+					<!--<div class="userName"><a href="javascript:;">永不上线</a>:</div>-->
+					<!--<div class="msgInfo">新增选择头像功能。</div>-->
+
+					<!--<div class="times"><span>07月05日 12:08</span><a class="del" href="javascript:;">删除</a></div>-->
+				<!--</div>-->
+			<!--</li>-->
+			<!--<li>-->
+				<!--<div class="userPic"><img src="img/face3.gif" /></div>-->
+				<!--<div class="content">-->
+					<!--<div class="userName"><a href="javascript:;">永不上线</a>:</div>-->
+
+					<!--<div class="msgInfo">增加了记录广播时间的功能。</div>-->
+					<!--<div class="times"><span>07月04日 16:55</span><a class="del" href="javascript:;">删除</a></div>-->
+				<!--</div>-->
+			<!--</li>-->
+			<!--<li>-->
+				<!--<div class="userPic"><img src="img/face4.gif" /></div>-->
+				<!--<div class="content">-->
+
+					<!--<div class="userName"><a href="javascript:;">永不上线</a>:</div>-->
+					<!--<div class="msgInfo">增加了输入字符检测功能，英文/半角为半个字符，汉字/全角为一个字符。</div>-->
+					<!--<div class="times"><span>07月04日 08:30</span><a class="del" href="javascript:;">删除</a></div>-->
+				<!--</div>-->
+			<!--</li>-->
+			<!--<li>-->
+
+				<!--<div class="userPic"><img src="img/face5.gif" /></div>-->
+				<!--<div class="content">-->
+					<!--<div class="userName"><a href="javascript:;">永不上线</a>:</div>-->
+					<!--<div class="msgInfo">仿腾讯微博效果，欢迎大家测试！</div>-->
+					<!--<div class="times"><span>07月03日 20:19</span><a class="del" href="javascript:;">删除</a></div>-->
+				<!--</div>-->
+
+			<!--</li>-->
+		<!--</ul>-->
+	<!--</div>-->
+<!--</div>-->
 
 <nav id="footer">
 	<div class="container">
 		<div class="pull-left fnav">
-			<p>2017.11.ALG协会</p>
+			<address style="font-size: 14px">2017.11.ALG协会</address>
 		</div>
-		<div class="pll-right fnav">
+		<div class="pll-right fnav" style="text-align: right">
 			<ul class="footer-social">
-				<li></li>
-				<li></li>
-				<li><a>邮箱:thelns@vip.qq.com</a></li>
+				<li><a style="">邮箱:BNUZALG@gmail.com</a></li>
 				<li><address>地址:北京师范大学珠海分校</address></li>
 			</ul>
 		</div>
 	</div>
 </nav>
+<div class="mp">
+	<div class="mp-box">
+		<img src="img/mplayer_error.png" alt="music cover" class="mp-cover">
+		<div class="mp-info">
+			<p class="mp-name">燕归巢</p>
+			<p class="mp-singer">许嵩</p>
+			<p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
+		</div>
+		<div class="mp-btn">
+			<button class="mp-prev" title="上一首"></button>
+			<button class="mp-pause" title="播放"></button>
+			<button class="mp-next" title="下一首"></button>
+			<button class="mp-mode" title="播放模式"></button>
+			<div class="mp-vol">
+				<button class="mp-vol-img" title="静音"></button>
+				<div class="mp-vol-range" data-range_min="0" data-range_max="100" data-cur_min="80">
+					<div class="mp-vol-current"></div>
+					<div class="mp-vol-circle"></div>
+				</div>
+			</div>
+		</div>
+		<div class="mp-pro">
+			<div class="mp-pro-current"></div>
+		</div>
+		<div class="mp-menu">
+			<button class="mp-list-toggle"></button>
+			<button class="mp-lrc-toggle"></button>
+		</div>
+	</div>
+	<button class="mp-toggle">
+		<span class="mp-toggle-img"></span>
+	</button>
+	<div class="mp-lrc-box">
+		<ul class="mp-lrc"></ul>
+	</div>
+	<button class="mp-lrc-close"></button>
+	<div class="mp-list-box">
+		<ul class="mp-list-title"></ul>
+		<table class="mp-list-table">
+			<thead>
+			<tr>
+				<th>歌名</th>
+				<th>歌手</th>
+				<th>时长</th>
+			</tr>
+			</thead>
+			<tbody class="mp-list"></tbody>
+		</table>
+	</div>
+</div>
+<!--音乐模块-->
 <!--<audio></audio>-->
 <!--<div class="m_player">-->
 	<!--&lt;!&ndash; 主体 &ndash;&gt;-->
@@ -591,15 +732,78 @@
 	<!--<span class="btn_lyrics_disabled">-->
   <!--</span>-->
 <!--</div>-->
-<!--<script src="js/music.js"></script>-->
 
 
+
+	<script src="js/music.js"></script>
 	<script src="ehttp://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/SmoothScroll.js"></script>
 	<script type="text/javascript" src="js/jquery.isotope.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/mplayer.js"></script>
+	<script src="js/mplayer-list.js"></script>
+	<script src="js/mplayer-functions.js"></script>
+	<script src="http://cdn.bootcss.com/jquery-nstslider/1.0.13/jquery.nstSlider.min.js"></script>
 
+<script>
+    var modeText = ['顺序播放','单曲循环','随机播放','列表循环'];
+    var player = new MPlayer({
+        // 容器选择器名称
+        containerSelector: '.mp',
+        // 播放列表
+        songList: mplayer_song,
+        // 专辑图片错误时显示的图片
+        defaultImg: 'img/mplayer_error.png',
+        // 自动播放
+        autoPlay: true,
+        // 播放模式(0->顺序播放,1->单曲循环,2->随机播放,3->列表循环(默认))
+        playMode:0,
+        playList:0,
+        playSong:0,
+        // 当前歌词距离顶部的距离
+        lrcTopPos: 34,
+        // 列表模板，用${变量名}$插入模板变量
+        listFormat: '<tr><td>${name}$</td><td>${singer}$</td><td>${time}$</td></tr>',
+        // 音量滑块改变事件名称
+        volSlideEventName:'change',
+        // 初始音量
+        defaultVolume:80
+    }, function () {
+        // 绑定事件
+        this.on('afterInit', function () {
+            console.log('播放器初始化完成，正在准备播放');
+        }).on('beforePlay', function () {
+            var $this = this;
+            var song = $this.getCurrentSong(true);
+            var songName = song.name + ' - ' + song.singer;
+            console.log('即将播放'+songName+'，return false;可以取消播放');
+        }).on('timeUpdate', function () {
+            var $this = this;
+            console.log('当前歌词：' + $this.getLrc());
+        }).on('end', function () {
+            var $this = this;
+            var song = $this.getCurrentSong(true);
+            var songName = song.name + ' - ' + song.singer;
+            console.log(songName+'播放完毕，return false;可以取消播放下一曲');
+        }).on('mute', function () {
+            var status = this.getIsMuted() ? '已静音' : '未静音';
+            console.log('当前静音状态：' + status);
+        }).on('changeMode', function () {
+            var $this = this;
+            var mode = modeText[$this.getPlayMode()];
+            $this.dom.container.find('.mp-mode').attr('title',mode);
+            console.log('播放模式已切换为：' + mode);
+        });
+    });
+
+
+    $(document.body).append(player.audio); // 测试用
+
+    setEffects(player);
+
+
+</script>
 </body>
 </html>
