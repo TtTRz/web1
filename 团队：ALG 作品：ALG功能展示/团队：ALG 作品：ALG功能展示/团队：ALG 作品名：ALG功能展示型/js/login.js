@@ -45,7 +45,6 @@ http.createServer(function (req , res) {
         req.addListener("data",function (chunk) {
             result += chunk;
         });
-
         req.on("end" , function () {
             var user = qs.parse(result);
             //判断用户是否存在
