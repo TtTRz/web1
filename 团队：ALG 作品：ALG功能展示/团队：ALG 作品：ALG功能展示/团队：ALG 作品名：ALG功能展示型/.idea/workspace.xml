@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9127b0ed-0d8a-4ed6-988f-41d6752d0ef8" name="Default" comment="" />
+    <list default="true" id="94246657-8829-40b6-a5cc-88d6f04d4cde" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,130 +14,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tianwenshipin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tianwenshipin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="157" column="67" lean-forward="false" selection-start-line="157" selection-start-column="67" selection-end-line="157" selection-end-column="67" />
+            <state relative-caret-position="132">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vedio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vedio.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="596" column="72" lean-forward="true" selection-start-line="596" selection-start-column="72" selection-end-line="596" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail_p.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/detail_p.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29568">
-              <caret line="896" column="0" lean-forward="false" selection-start-line="896" selection-start-column="2" selection-end-line="903" selection-end-column="7" />
+            <state relative-caret-position="66">
+              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>01</find>
-      <find>01.jpg</find>
-      <find>hr</find>
-      <find>hide</find>
-    </findStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sefolio/css/hover.css" />
-        <option value="$PROJECT_DIR$/sefolio/css/jPushMenu.css" />
-        <option value="$PROJECT_DIR$/sefolio/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/sefolio/keji-index.html" />
-        <option value="$PROJECT_DIR$/sefolio/css/main.css" />
-        <option value="$PROJECT_DIR$/Technology/css/main.css" />
-        <option value="$PROJECT_DIR$/js/resumeEnter.js" />
-        <option value="$PROJECT_DIR$/login/css/style.css" />
-        <option value="$PROJECT_DIR$/tianwen/shouye.html" />
-        <option value="$PROJECT_DIR$/Technology/IT-people.html" />
-        <option value="$PROJECT_DIR$/Technology/IT-git.html" />
-        <option value="$PROJECT_DIR$/IT-people.html" />
-        <option value="$PROJECT_DIR$/IT-history.html" />
-        <option value="$PROJECT_DIR$/tianwen/news2.html" />
-        <option value="$PROJECT_DIR$/tianwen/news3.html" />
-        <option value="$PROJECT_DIR$/tianwen/news4.html" />
-        <option value="$PROJECT_DIR$/loading0.html" />
-        <option value="$PROJECT_DIR$/zatan/lvxing/lvxing.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/tianwen/yuzhounews4.html" />
-        <option value="$PROJECT_DIR$/tianwen/yuzhouxiaoketang.html" />
-        <option value="$PROJECT_DIR$/tianwen/yuzhounews3.html" />
-        <option value="$PROJECT_DIR$/tianwen/yuzhounews2.html" />
-        <option value="$PROJECT_DIR$/tianwen/yuzhounews1.html" />
-        <option value="$PROJECT_DIR$/tianwen/xingqiuxiaoketang.html" />
-        <option value="$PROJECT_DIR$/zatan/lvxing/City/Chengdu.html" />
-        <option value="$PROJECT_DIR$/tianwen/js/login.js" />
-        <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/js/login.js" />
-        <option value="$PROJECT_DIR$/zatan/zatan-index.html" />
-        <option value="$PROJECT_DIR$/tianwen/news1.html" />
-        <option value="$PROJECT_DIR$/tianwen/xingqiunews1.html" />
-        <option value="$PROJECT_DIR$/tianwen/yuzhoutupian.html" />
-        <option value="$PROJECT_DIR$/tianwen/xingqiutupian.html" />
-        <option value="$PROJECT_DIR$/tianwen/xingqiunews4.html" />
-        <option value="$PROJECT_DIR$/tianwen/xingqiunews3.html" />
-        <option value="$PROJECT_DIR$/tianwen/xingqiunews2.html" />
-        <option value="$PROJECT_DIR$/tianwen/js/jPushMenu.js" />
-        <option value="$PROJECT_DIR$/tianwen/js/jquery.fancybox.js" />
-        <option value="$PROJECT_DIR$/tianwen/js/main.js" />
-        <option value="$PROJECT_DIR$/tianwen/js/plugins.js" />
-        <option value="$PROJECT_DIR$/zatan/css/preload.css" />
-        <option value="$PROJECT_DIR$/tianwen/tianwenxiaoketang.html" />
-        <option value="$PROJECT_DIR$/liuyan.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/IT1.html" />
-        <option value="$PROJECT_DIR$/IT-git.html" />
-        <option value="$PROJECT_DIR$/js/vedio.js" />
-        <option value="$PROJECT_DIR$/css/detail_p.css" />
-        <option value="$PROJECT_DIR$/tianwenshipin.html" />
-        <option value="$PROJECT_DIR$/index1.html" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -146,8 +53,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="41" />
+    <option name="x" value="267" />
+    <option name="y" value="44" />
     <option name="width" value="1544" />
     <option name="height" value="917" />
   </component>
@@ -166,7 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,38 +81,17 @@
               <item name="团队：ALG 作品名：ALG功能展示型" type="b2602c69:ProjectViewProjectNode" />
               <item name="团队：ALG 作品名：ALG功能展示型" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="团队：ALG 作品名：ALG功能展示型" type="b2602c69:ProjectViewProjectNode" />
-              <item name="团队：ALG 作品名：ALG功能展示型" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="nodejs_interpreter_path" value="node" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/tianwen/css" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/css" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,36 +113,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9127b0ed-0d8a-4ed6-988f-41d6752d0ef8" name="Default" comment="" />
-      <created>1511785135787</created>
+      <changelist id="94246657-8829-40b6-a5cc-88d6f04d4cde" name="Default" comment="" />
+      <created>1513783603508</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1511785135787</updated>
-      <workItem from="1511785136969" duration="787000" />
-      <workItem from="1511794242564" duration="24529000" />
-      <workItem from="1511884660485" duration="15000" />
-      <workItem from="1511884925002" duration="1902000" />
-      <workItem from="1511887051833" duration="4045000" />
-      <workItem from="1511891406972" duration="1032000" />
-      <workItem from="1511892581611" duration="49000" />
-      <workItem from="1511892698022" duration="2561000" />
-      <workItem from="1511924612265" duration="18673000" />
-      <workItem from="1511970029667" duration="16956000" />
-      <workItem from="1512058963806" duration="3360000" />
-      <workItem from="1512106933133" duration="7655000" />
-      <workItem from="1512226560075" duration="458000" />
-      <workItem from="1513423402325" duration="6284000" />
-      <workItem from="1513435986467" duration="462000" />
-      <workItem from="1513504624991" duration="37000" />
-      <workItem from="1513508605920" duration="552000" />
-      <workItem from="1513512557560" duration="21000" />
-      <workItem from="1513602853322" duration="1000" />
-      <workItem from="1513774649270" duration="84000" />
+      <updated>1513783603508</updated>
+      <workItem from="1513783605524" duration="56000" />
+      <workItem from="1513783670742" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89463000" />
+    <option name="totallyTimeSpent" value="547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="41" width="1544" height="917" extended-state="0" />
@@ -273,12 +141,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23431952" sideWeight="0.4921928" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,9 +166,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -558,42 +434,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vedio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/detail_p.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29568">
-          <caret line="896" column="0" lean-forward="false" selection-start-line="896" selection-start-column="2" selection-end-line="903" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vedio.js" />
+    <entry file="file://$PROJECT_DIR$/css/detail_p.css" />
     <entry file="file://$PROJECT_DIR$/tianwenshipin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="157" column="67" lean-forward="false" selection-start-line="157" selection-start-column="67" selection-end-line="157" selection-end-column="67" />
+        <state relative-caret-position="132">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="596" column="72" lean-forward="true" selection-start-line="596" selection-start-column="72" selection-end-line="596" selection-end-column="72" />
+        <state relative-caret-position="132">
+          <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding />
         </state>
       </provider>
