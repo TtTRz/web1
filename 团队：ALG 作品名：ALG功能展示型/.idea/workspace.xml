@@ -17,8 +17,13 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+            <state relative-caret-position="9306">
+              <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+=======
             <state relative-caret-position="1170">
               <caret line="78" column="43" lean-forward="false" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
               <folding />
             </state>
           </provider>
@@ -27,8 +32,13 @@
       <file leaf-file-name="liuyan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyan.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+            <state relative-caret-position="528">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+=======
             <state relative-caret-position="600">
               <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="43" selection-end-column="22" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
               <folding />
             </state>
           </provider>
@@ -71,6 +81,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+            <state relative-caret-position="66">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+=======
             <state relative-caret-position="465">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
@@ -119,6 +133,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2235">
               <caret line="149" column="76" lean-forward="false" selection-start-line="149" selection-start-column="76" selection-end-line="149" selection-end-column="76" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
               <folding />
             </state>
           </provider>
@@ -226,6 +241,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+      <pane id="Scratches" />
+      <pane id="Scope" />
+=======
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,8 +257,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+=======
       <pane id="Scratches" />
       <pane id="Scope" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,6 +309,13 @@
       <created>1511785135787</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+      <updated>1513783603508</updated>
+      <workItem from="1513783605524" duration="56000" />
+      <workItem from="1513783670742" duration="76000" />
+      <workItem from="1513832240182" duration="281000" />
+      <workItem from="1513832795882" duration="41000" />
+=======
       <updated>1511785135787</updated>
       <workItem from="1511785136969" duration="787000" />
       <workItem from="1511794242564" duration="24529000" />
@@ -300,10 +330,23 @@
       <workItem from="1512058963806" duration="3360000" />
       <workItem from="1512106933133" duration="7655000" />
       <workItem from="1512226560075" duration="458000" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+    <option name="totallyTimeSpent" value="869000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="267" y="44" width="1544" height="917" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+=======
     <option name="totallyTimeSpent" value="82022000" />
   </component>
   <component name="ToolWindowManager">
@@ -314,6 +357,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23431952" sideWeight="0.5078072" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23431952" sideWeight="0.4921928" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -325,6 +369,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -641,20 +689,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="43" selection-end-column="22" />
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="78" column="43" lean-forward="false" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vedio.js" />
+    <entry file="file://$PROJECT_DIR$/css/detail_p.css" />
+    <entry file="file://$PROJECT_DIR$/tianwenshipin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+=======
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+        <state relative-caret-position="9306">
+          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+=======
         <state relative-caret-position="465">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:团队：ALG 作品：ALG功能展示/团队：ALG 作品：ALG功能展示/团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
+        <state relative-caret-position="66">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+=======
         <state relative-caret-position="56">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
@@ -682,6 +759,7 @@
             <element signature="n#style#0;n#strong#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+>>>>>>> 3ac0cf06f6d03b7d224a85510d8b02a896484727:团队：ALG 作品名：ALG功能展示型/.idea/workspace.xml
         </state>
       </provider>
     </entry>
